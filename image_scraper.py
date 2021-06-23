@@ -19,7 +19,7 @@ urls = []
 for image in images:
     urls.append(image['src'])
 
-# replaces parts of the url to get hi res images
+# replaces parts of the url to get hi res images (only applicable for this website instance)
 counter = 0
 for url in urls:
     a = str(urls[counter])
